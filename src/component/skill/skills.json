@@ -1,0 +1,22 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skill/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skill/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skill/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skill/react.png"
+    },
+    {
+      "title": "TailWind CSS",
+      "imageSrc": "skill/tailwind.png"
+    }
+  ]

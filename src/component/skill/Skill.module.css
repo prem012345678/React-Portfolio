@@ -1,0 +1,41 @@
+.skill{
+    width: 600px; ;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    & h2{
+        color: yellowgreen;
+        letter-spacing: 1px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+
+.item img{
+    width: 70px;
+margin-bottom:-18px ;
+    
+}
+
+.item{
+   
+    margin: auto;
+    border: 1px solid yellow;
+    background-color: black;
+    width: 300px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+   
+    
+}  

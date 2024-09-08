@@ -1,0 +1,43 @@
+.contact{
+    height:30vh;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    & h2{
+        text-align: center;
+        color: yellowgreen;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+   
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    gap: 20px;
+}
+.icon{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+margin: auto;
+cursor: pointer;
+
+&:hover{
+    background-color: var(--bg-color);
+    box-shadow: 0px 0px 20px 10px rgba(129, 163, 88, 0.5);;
+    transition: all 0.2s ;
+}
+}

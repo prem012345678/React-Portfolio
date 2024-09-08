@@ -1,0 +1,65 @@
+.project{
+    /* height: 80vh; */
+    width: 750px;
+    margin: auto;
+    padding-bottom: 20px;
+    & h2{
+        text-align: center;
+        color: yellowgreen;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+}
+
+.cols3{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.card{
+    border: 1px solid yellow;
+    border-radius: 5px;
+width: 200px;
+height: auto;
+margin: auto;
+padding: 10px;
+background-color: rgb(17, 16, 16);
+box-shadow: var(--box-shadow);
+}
+.image{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.image img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    border: 0.5px solid yellow;
+}
+.title{
+    font-weight: 400;
+    margin: 15px 0 8px ;
+    letter-spacing: 0.6px;
+}
+.description{
+    margin-bottom: 15px;
+    letter-spacing: 0.6px;
+    line-height:23px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 20px;
+}

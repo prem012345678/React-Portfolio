@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(11, 26, 59);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+:root{
+    --box-shadow:4px 4px 3px 5px rgba(100,170,10,0.5);
+    --bg-color:rgb(40,47,98)
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+   
+}
+
+/* NAVBAR SECTION  */
+
+/* a{
+    color: white;
+    text-decoration: none;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.rights{
+display: flex;
+gap: 25px;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 1px;
+
+}
+a{
+position: relative;
+
+&::before{
+    position: absolute;
+    content: '';
+    width: 0px;
+    bottom: -2px;
+    border-bottom: 2px solid rgb(134, 125, 7);
+}
+&:hover::before{
+    width: 100%;
+transition: all 0.3s;
+}
+} */
+
+/* HOME SECTION  */
