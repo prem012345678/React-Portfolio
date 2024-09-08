@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import './Home.css'
+import images from '/hero.avif'
 import Typed from 'typed.js'
 const Home = () => {
     let typedRef=useRef(null)
@@ -24,7 +25,7 @@ loop:true
                 </div>
                 <div className='right' data-aos="fade-up-left"  data-aos-duration='1000'>
                     <div className='image'>
-                        <img src='hero.avif' alt='hero' />
+                        <img src={images} alt='hero' />
                     </div>
                 </div>
             </div>

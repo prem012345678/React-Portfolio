@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './About.module.css'
+import images from "/hero.avif"
 const About = () => {
     return (
         <>
@@ -11,7 +12,7 @@ const About = () => {
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
                         <div className={style.image}>
-                            <img src='hero.avif' alt='hero' />
+                            <img src={images} alt='hero' />
                         </div>
                     </div>
                     <div className={style.right}>
